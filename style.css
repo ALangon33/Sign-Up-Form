@@ -1,7 +1,42 @@
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
+:root {
+}
+* {
+    margin:0;
+    padding:0;
 }
 
-p {
+.card {
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.splash {
+    height: 100vh;
+}
+
+.content-container {
+    display:flex;
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    color:white;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+
+}
+
+h2 {
     font-family: 'Cabin', sans-serif;
 }
