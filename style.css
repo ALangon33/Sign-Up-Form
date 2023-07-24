@@ -11,12 +11,15 @@
     align-items: center;
     margin:0;
     padding:0;
+    background-color: rgba(155, 155, 155, 50%);
 }
 
 .img-container {
     position: relative;
     text-align: center;
     max-width: fit-content;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
 }
 
 .splash {
@@ -25,7 +28,10 @@
 
 .content-container {
     display:flex;
-
+    flex-flow: column;
+    font-family: 'Cabin', sans-serif;
+    margin:3em;
+    line-height: 1.5em;
 }
 
 .splash-text-container {
@@ -39,11 +45,14 @@
      
 }
 
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    color:white;
+form {
+    margin: 10% 0;
+    background-color: white;
+    box-shadow: 20px -20px rgba(0, 0, 0, 50%);
+    height:45%;
+    padding:5%;
 }
 
 h2 {
-    font-family: 'Cabin', sans-serif;
+    padding: 0 0 0.5em 0;
 }
