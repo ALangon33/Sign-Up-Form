@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,36 +11,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans&display=swap" rel="stylesheet">
     <script src="script.js"></script>
 </head>
+
 <body>
     <div class="card">
-    <div class="img-container">
-        <img src="imgs/trees-g3646bd317_1280.jpg" alt="Bridge Surrounded by Trees" class="splash">
-        <div class="splash-text-container">
-            <h1>WELCOME TO THE JOURNY</h1>
+        <div class="img-container">
+            <img src="imgs/trees-g3646bd317_1280.jpg" alt="Bridge Surrounded by Trees" class="splash">
+            <div class="splash-text-container">
+                <h1>WELCOME TO THE JOURNY</h1>
+            </div>
+            <div class="image-src">Image by <a
+                href="https://pixabay.com/users/leonhard_niederwimmer-1131094/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8062668">Leonhard
+                Niederwimmer</a> from <a
+                href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8062668">Pixabay</a>
+        </div>
+        </div>
+        <div class="content-container">
+            <h2>Your dreams have been waiting</h2>
+            <p>This is exactly what you've been waiting for!</p>
+            <p>Don't miss out!</p>
+            <form action="#" method="post">
+            
+                <div class="form-title">
+                    <h2>Let's get started!</h2>
+                </div>
+                
+                <div class="fieldset-container">
+                    <fieldset>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="John">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Doe">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="john@doe.com">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="800-000-0000">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </fieldset>
+                </div>
+
+            </form>
+            <input class="submit" type="button" value="Submit">
         </div>
     </div>
-    <div class="content-container">
-        <h2>Your dreams have been waiting</h2>
-        <p>This is exactly what you've been waiting for!</p>
-        <p>Don't miss out!</p>
-        <form action="#" method="post">
-            <h2>Let's get started!</h2>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name" placeholder="John">
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name" placeholder="Doe">        
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" name="phone-number" id="phone-number">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" name="confirm-password" id="confirm-password">
-        
-        </form>
-        <input class="submit" type="button" value="Submit">
-    </div>
-</div>
 </body>
+
 </html>

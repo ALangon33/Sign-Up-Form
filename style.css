@@ -11,7 +11,7 @@
     align-items: center;
     margin:0;
     padding:0;
-    background-color: rgba(155, 155, 155, 50%);
+    background-color: rgba(212, 205, 205, 0.5);
 }
 
 .img-container {
@@ -30,7 +30,7 @@
     display:flex;
     flex-flow: column;
     font-family: 'Cabin', sans-serif;
-    margin:3em;
+    margin-left:3em;
     line-height: 1.5em;
 }
 
@@ -45,14 +45,61 @@
      
 }
 
+.image-src {
+    background-color: rgba(0, 0, 0, 50%);
+    position: absolute;
+    bottom:5px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.submit {
+    padding:0.8em;
+    width:30%;
+    font-family: 'Cabin', sans-serif;
+    background-color: rgb(148, 163, 11);
+    border:none;
+    border-radius: 1em;
+    color: white;
+}
+
+.submit:hover {
+    background-color: rgb(122, 134, 9);
+}
+
+.submit:active {
+    background-color: rgb(148, 161, 24);
+}
+
+a {
+    color:white;
+}
+
 form {
     margin: 10% 0;
     background-color: white;
-    box-shadow: 20px -20px rgba(0, 0, 0, 50%);
+    box-shadow: 20px 20px rgba(0, 0, 0, 30%);
     height:45%;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.fieldset-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+fieldset {
+    display: flex;
+    border:none;
+    flex-flow: column nowrap;
     padding:5%;
 }
 
 h2 {
     padding: 0 0 0.5em 0;
+    font-weight: 300;
 }
