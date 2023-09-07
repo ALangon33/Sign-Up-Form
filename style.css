@@ -1,13 +1,23 @@
+:root {
+    height:100%;
+}
+
 * {
     margin:0;
     padding:0;
+}
+
+body {
+    background-color: rgba(212, 205, 205, 0.5);
+    width: 100%;
+    height:100%;
 }
 
 .card {
     display: flex;
     margin:0;
     padding:0;
-    background-color: rgba(212, 205, 205, 0.5);
+    height:100%;
 }
 
 .img-container {
@@ -18,7 +28,8 @@
 }
 
 .splash {
-    height: 100vh;
+    height: 100%;
+    min-width: 100%;
 }
 
 .content-container {
@@ -28,6 +39,10 @@
     line-height: 1.5em;
     width: 100%;
     
+}
+
+.header {
+    margin-top: 10%;
 }
 
 .splash-text-container {
@@ -80,28 +95,37 @@ a:hover {
 form {
     margin: 5% 0;
     background-color: white;
-    height:fit-content;
     width:100%;
     display: flex;
     flex-flow: column;
+    padding-bottom: 5%;
+    box-shadow: 0em 0.5em 1em 0rem rgba(0, 0, 0, .5);
 }
 
 .fieldset-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    margin-right: 8em;
 }
 
 fieldset {
     display: flex;
     border:none;
-    flex-flow: column nowrap;
-    margin: 2em 2em;
+    flex-flow: row nowrap;
+    margin: 1em 1.5em;
 }
 
 h2 {
     padding: 1em 3%;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 2em;
 }
 
 label {
@@ -109,16 +133,16 @@ label {
 }
 
 .form-title {
-    padding-left:0.75em;
     font-weight: 300;
 }
 
 .form-title>h2 {
-    padding-bottom: 0;
+    padding-bottom: 0.5em;
 }
 
 p {
     padding: 0 3%;
+    font-size: 1.15em;
 }
 
 .log {
@@ -129,6 +153,6 @@ input {
     line-height: 1.5em;
     width:100%;
     padding:0.5em;
-    margin-bottom:0.5em;
-
+    padding-right:3em;
+    border-radius:50px;
 }
