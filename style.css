@@ -154,5 +154,17 @@ input {
     width:100%;
     padding:0.5em;
     padding-right:3em;
-    border-radius:50px;
+    border-radius:7px;
+    transition:0.5s;
+    outline:none;
+}
+
+input:focus {
+    border-color:aqua;
+    scale:1.1;
+    box-shadow: 0em 0.5em 1em 0rem rgba(0, 0, 0, .5);
+}
+
+.error {
+    border-color:red;
 }
